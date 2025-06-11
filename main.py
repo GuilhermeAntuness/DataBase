@@ -2,7 +2,7 @@ import uvicorn
 from fastapi import FastAPI
 from database import engine, Base
 from app.routers import empresa
-from app.models.empresa import Empresa
+from app.models import *
 
 
 
