@@ -5,7 +5,7 @@ from sqlalchemy.orm import Session
 from app.models.empresa import Empresa
 from database import get_db
 
-router = APIRouter(prefix="/empresas")
+router = APIRouter(prefix="/empresas", tags=['Empresa'])
 
 class CompanyResponse(BaseModel):
     id: int

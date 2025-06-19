@@ -7,7 +7,7 @@ from app.models.pessoa import Pessoa, Cliente, Funcionario
 from app.models.cargo import Cargo
 from database import get_db
 
-router = APIRouter(prefix="/pessoas")
+router = APIRouter(prefix="/pessoas",tags=['Pessoa'])
 
 # Schemas para Pessoa
 class PessoaBase(BaseModel):

@@ -6,7 +6,7 @@ from app.models.cargo import Cargo
 from app.models.pessoa import Funcionario
 from database import get_db
 
-router = APIRouter(prefix="/cargos")
+router = APIRouter(prefix="/cargos", tags=["Cargo"])
 
 class CargoBase(BaseModel):
     nome: str

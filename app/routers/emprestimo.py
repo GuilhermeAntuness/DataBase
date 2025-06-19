@@ -8,7 +8,7 @@ from app.models.book import BookCopy
 from app.models.pessoa import Cliente
 from database import get_db
 
-router = APIRouter(prefix="/emprestimos")
+router = APIRouter(prefix="/emprestimos",tags=['Emprestimo'])
 
 class EmprestimoBase(BaseModel):
     cliente_id: int
