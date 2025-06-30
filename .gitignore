@@ -1,0 +1,30 @@
+# Ambientes virtuais
+venv/
+ENV/
+env/
+
+# Arquivos de ambiente e configuração
+.env
+*.env
+
+# Arquivos de compilação Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.cpython-*
+
+# Arquivos de migração que não precisam ser versionados
+alembic.ini
+
+# VS Code
+.vscode/
+
+# Arquivos de log e cache
+*.log
+*.sqlite3
+*.db
+
+# Mac e Linux
+.DS_Store
